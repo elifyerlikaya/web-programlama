@@ -33,10 +33,11 @@
     height: auto;
 
  }
- .clearfix::after{
-   content: "";
-   display: block;
-   clear:both;
+
+ .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
  }
 
  header {
@@ -136,21 +137,23 @@
        font-size: 9px;
     }
  }
- @media screen and (min-width:1200px){
 
-   html{
-      font-size: 11px;
-   }
+ @media screen and (min-width:1200px) {
 
-   #section-b li{
-      width: 28%;
-      margin: 1%;
-      display: inline-block;
-   
-   }
-   .box{
+    html {
+       font-size: 11px;
+    }
 
-      width: 50%;
-      float: left;
-   }
+    #section-b li {
+       width: 28%;
+       margin: 1%;
+       display: inline-block;
+
+    }
+
+    .box {
+
+       width: 50%;
+       float: left;
+    }
  }
