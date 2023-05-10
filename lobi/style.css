@@ -15,6 +15,12 @@ body {
     line-height: 1.5;
     background-color: #fff;
 }
+h1, h2 h3, h4, h5, h6{
+
+    font-weight: 700;
+    font-family: Montserrat;
+
+}
 
 a {
     text-decoration: none;
@@ -22,6 +28,11 @@ a {
 
 ul {
     list-style-type: none;
+}
+.img-fluid{
+
+    max-width: 340px;
+    height: auto;
 }
 
 
@@ -79,6 +90,7 @@ nav {
     margin: 0.5rem;
 }
 
+
 #nav-links .nav-link{
     color: #fff;
     font-size: 1.6rem;
@@ -91,13 +103,19 @@ nav {
 }
 
 #nav-links .nav-link:hover {
-    color: #1ABC9B;
+    color: #afd9d5;
 }
 header{
-background-color: #1ABC9B;
+background-color: #afd9d5;
 height: 700px;
-padding-top: calc(106px + 4rem);
+padding-top: calc(106px + 6rem);
 text-align: center;
+
+}
+header h1 {
+color:#fff
+font-size: 6rem;
+
 
 }
 @import url(//fonts.googleapis.com/css?family=Lato:100,300,300i,400);
