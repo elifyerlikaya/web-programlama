@@ -67,7 +67,7 @@ ul {
 nav {
     width: 100%;
     font-family: Montserrat;
-    background-color: #2C3E4F;
+    background-color: #6F4E37;
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -110,11 +110,11 @@ nav {
 }
 
 #nav-links .nav-link:hover {
-    color: #afd9d5;
+    color: #D2B48C;
 }
 
 header {
-    background-color: #afd9d5;
+    background-color: #D2B48C;
     height: 700px;
     padding-top: calc(106px + 6rem);
     text-align: center;
@@ -156,13 +156,6 @@ h4 {
     text-align: center;
 }
 
-button {
-    display: inline;
-    background: #01A4E0;
-    color: #2184AC;
-    border: 0;
-    padding: 4px;
-}
 
 input {
     display: block;
@@ -180,36 +173,7 @@ small {
     color: #fff;
 }
 
-.login-box {
-    padding: 1em 1em 1em 1em;
-    margin: auto;
-    text-align: center;
-    display: block;
-    background-color: #6f92dc;
-    /*border: 1px dashed white;*/
-    width: 60%;
-    height: auto;
-}
 
-.outer-box {
-    display: block;
-    margin: auto;
-    background: #6f92dc;
-    border-radius: 5px;
-    width: 50%;
-    height: 20em;
-    height: auto;
-}
-
-#btn-login {
-    display: block;
-    width: 100%;
-    height: 40px;
-    margin-top: 2.0em;
-    border-radius: 4px;
-    background-color: #3366cc;
-    color: #fff;
-}
 
 #btn-forgot {
     display: block;
@@ -219,114 +183,125 @@ small {
     color: #fff;
     background-color: #000D36;
 }
+
 hr.star-dark {
-    border-color: #2C3E4F;
+    border-color: #6F4E37;
 
 }
 
-.star-light, .star-dark {
+.star-light,
+.star-dark {
     border: none;
     border-top: 0.4rem solid #fff;
-   max-width: 25rem;
-   border-radius: 10px;
-   margin: 2.5rem auto;
-   overflow: visible;
-   height: 0;
+    max-width: 25rem;
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
 
 }
 
-.star-light::after{
+.star-light::after {
     content: "\2605";
-    color:#fff;
+    color: #fff;
     font-weight: 900;
     font-size: 3.2rem;
     top: -30px;
     padding: 0 8px;
     position: relative;
-    background-color: #afd9d5;
+    background-color: #D2B48C;
 
 
 }
+
 #hakkimda {
 
-padding-top: 10rem;
-padding-bottom: 10rem;
-text-align: center;
-background-color: aliceblue;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    background-color: aliceblue;
 
 
 
 }
+
 #hakkimda h2 {
-font-size: 4.8rem;
-color:rgb(122, 184, 164);
+    font-size: 4.8rem;
+    color: #6F4E37;
 
 }
+
 .img-fluid-p {
-max-width: 80%;
-height: auto;
+    max-width: 80%;
+    height: auto;
 
 
 
 
 }
+
 .col {
-float: left;
-width: 33.333%;
-padding: 10px;
-height: 300px;
-background-color:aliceblue;
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    height: 300px;
+    background-color: aliceblue;
 
 
 }
-.hakkimda-item {
-    
-}
+
+.hakkimda-item {}
+
 #resimdüzenle {
-height: 300px;
-width: 300px;
+    height: 300px;
+    width: 300px;
 
 }
-#hakkimda-yazı
-{
-background-color:aliceblue; 
-color:#2C3E4F;
+
+#hakkimda-yazı {
+    background-color: aliceblue;
+    color: #6F4E37;
 
 }
-#hakkimda-yazı h1{
-font-size: 2.0rem;
+
+#hakkimda-yazı h1 {
+    font-size: 2.0rem;
 
 }
+
 #hakkimda-yazı .text {
-font-size: 1.8rem;
-padding-left: 30rem;
-padding-right: 30rem;
-padding-bottom: 20rem;
+    font-size: 1.8rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-bottom: 20rem;
 
 
 }
+
 #sehrim {
-padding: 50px;
-    background-color:#afd9d5;
-    color: #2C3E4F;
+    padding: 50px;
+    background-color: #D2B48C;
+    color: #6F4E37;
 }
+
 #sehrim .text-1 {
-font-size: 1.8rem;
+    font-size: 1.8rem;
 
 
 
 }
+
 .copyright {
-    background-color: #19262f;
+    background-color: #6F4E37;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
-    color:#fff;
+    color: #fff;
     text-align: center;
-   
 
-   
-    
+
+
+
 }
