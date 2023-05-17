@@ -12,40 +12,42 @@
     
 <body>
 
-
+<form action="iletişim.php" method="POST" enctype="multipart/form-data"> 
 <div class="contact-container">
   <div class="left-col">
-    <form>
+    
+    
         <label for="ders1">En sevdiğiniz site?</label><br>
-        <input type="checkbox" name="ders1"
-        value="Web">Hakkımda<br>
-        <input type="checkbox" name="ders2"
-        value="Mat">Şehrim<br>
-        <input type="checkbox" name="ders1"
-        value="Web">İletişim<br>
-        <input type="checkbox" name="ders1"
-        value="Web">İlgi alanlarım<br>
-        <input type="checkbox" name="ders1"
-        value="Web">Özgeçmiş<br>
-        </form>
-        <form>
+        <input type="checkbox" name="site[]"
+        value="Hakkımda">Hakkımda<br>
+        <input type="checkbox" name="site[]"
+        value="Şehrim">Şehrim<br>
+        <input type="checkbox" name="site[]"
+        value="İletişim">İletişim<br>
+        <input type="checkbox" name="site[]"
+        value="İlgi Alanlarım">İlgi alanlarım<br>
+        <input type="checkbox" name="site[]"
+        value="Özgeçmiş">Özgeçmiş<br><br><br>
+        
+        
             <label for="adi">Cinsiyetiniz:</label><br>
-            <input type="radio" name="cinsiyet" value="erkek" checked>Erkek<br>
-            <input type="radio" name="cinsiyet" value="kadin">Kadın
-            </form>
-            <form>
+            <input type="radio" name="cinsiyet[]" value="erkek" checked>Erkek<br>
+            <input type="radio" name="cinsiyet[]" value="kadin">Kadın<br><br><br>
+            
+            
                 <label for="adi">Görsel Önerileriniz?</label><br>
-                <input type="file" name="dosya">
-                </form>
-                <form>
+                <input type="file" name="dosya"><br><br><br>
+                
+                
                     <label for="öğrenim">Öğrenim Durumunuz:</label><br>
                 <select name="öğrenim">
-                    <option value="volvo">İlköğretim</option>
-                    <option value="saab">Ortaöğretim</option>
-                    <option value="fiat" selected>Lisans</option>
-                    <option value="audi">Yüksek Lisans</option>
-                    </select>
-                </form>
+                    <option value="İlköğretim">İlköğretim</option>
+                    <option value="Ortaöğretim">Ortaöğretim</option>
+                    <option value="Lisans" selected>Lisans</option>
+                    <option value="Yüksek Lisans">Yüksek Lisans</option>
+                    </select><br><br><br>
+                    <button style="display: none;" type="submit" id="submit" name="submit">Send</button>
+                
   </div>
   <div class="right-col">
     <div class="theme-switch-wrapper" style="display: none;">
@@ -58,7 +60,7 @@
     
     <h1>Contact us</h1>
     
-    <form id="contact-form" method="post">
+    
       <label for="name">Full name</label>
   <input type="text" id="name" name="name" placeholder="Your Full Name" required>
       <label for="email">Email Address</label>
@@ -67,7 +69,9 @@
   <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
       <button type="submit" id="submit" name="submit">Send</button>
   
+
 </form>
+
 <div id="error"></div>
 <div id="success-msg"></div>
   </div>
