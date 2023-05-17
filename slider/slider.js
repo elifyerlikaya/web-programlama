@@ -8,9 +8,9 @@ function yesno() {
     else {
         labelvar.innerHTML = "Saklıkent";
     }
-  }
-  function yesnox() {
-  
+}
+function yesnox() {
+
     var checkboxvar = document.getElementById("tıklax");
     var labelvar = document.getElementById("textx");
     if (!checkboxvar.checked) {
@@ -19,27 +19,28 @@ function yesno() {
     else {
         labelvar.innerHTML = "Marmaris";
     }
-  }
-  function yesnoy() {
-  
+}
+function yesnoy() {
+
     var checkboxvar = document.getElementById("tıklay");
-     var labelvar = document.getElementById("texty");
+    var labelvar = document.getElementById("texty");
     if (!checkboxvar.checked) {
         labelvar.innerHTML = "";
     }
     else {
         labelvar.innerHTML = "Ölüdeniz";
     }
-  } 
-  
-  function yesnoz() {
-  
+}
+
+function yesnoz() {
+
     var checkboxvar = document.getElementById("tıklaz");
     var labelvar = document.getElementById("textz");
     if (!checkboxvar.checked) {
         labelvar.innerHTML = "";
     }
     else {
-        labelvar.innerHTML = "Fethiye";
+        labelvar.innerHTML = "Dalaman havaalanına 50 Km mesafede, Türkiye'nin Akdeniz ile Ege kıyılarının birleştiği turkuaz koylarında yer almaktadır " ;
+        labelvar.href= "https://www.fethiye-turlari.com/fethiye-hakkinda/"
     }
-  }
+}

@@ -8,6 +8,7 @@
 
 .form-group {
     margin-bottom: 10px;
+    background-color: saddlebrown;
 }
 
 label {
@@ -25,7 +26,7 @@ input[type="password"] {
 button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: brown;
     color: #fff;
     border: none;
     border-radius: 3px;
