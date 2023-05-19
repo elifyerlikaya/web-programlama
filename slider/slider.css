@@ -156,3 +156,7 @@ input:not(:checked)+label+.ci {
   color: hsla(82 80% 90% / .8);
 }
 
+#section {
+
+  padding-left: 100px;
+}

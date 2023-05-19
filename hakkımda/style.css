@@ -1,0 +1,205 @@
+@import url('<link href="https: //fonts.googleapis.com/css2?family= Poppins :wght@300;400;500;600;700 & display=swap" rel="stylesheet">');
+
+:root {
+    --color1: #05c98e;
+    --color2: #240E88;
+    --color3: #501471;
+    --colorWhite: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    background: linear-gradient(to top right, var(--color1), var(--color2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:var(--colorWhite);
+    margin: 50px;
+    display:  grid;
+    grid-template-columns:1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0,0 0,-1) ;
+
+}
+
+.container .left_slide {
+    position: relative;
+    background: var(--color3);
+    padding: 40px;
+}
+.profiltext{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba((255), 255, 255, .2);
+
+
+}
+.profiltext .imgBox{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+.profiltext .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bilgi{
+padding-top: 40px;
+
+}
+.title{
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    font-weight:600 ;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.bilgi ul{
+    position: relative;
+}
+.bilgi ul li{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+
+}
+.bilgi ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+
+}
+.bilgi ul li span{
+color: var(--colorWhite);
+
+}
+.profiltext h2{
+color: var(--colorWhite);
+font-size: 1.5rem;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4rem;
+
+}
+.profiltext h2 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+.container .right_slide {
+    position: relative;
+    background: var(--colorWhite);
+    padding: 40px;
+}
+ .eğitim li {
+    margin-bottom:15px;
+
+ }
+ .eğitim h5 {
+    color: #03a9f4;
+    font-weight: 500;
+
+ }
+.eğitim h4 {
+   color: var(--colorWhite);
+
+ }
+ .diller .perecent {
+position: relative;
+width: 100%;
+height: 6px;
+background: #081921;
+display: block;
+margin-top: 5px;
+
+
+ }
+ .diller .perecent div{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+ }
+ /* right slide*/
+ .container .right_slide{
+    position: relative;
+    background: var(--colorWhite);
+    padding: 40px;
+
+ }
+ .hakkında{
+    margin-bottom: 50px;
+ }
+ .hakkında:last-child{
+    margin-bottom: 0;
+ }
+ .title2{
+    padding-left: 200px;
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+ }
+ p{
+    color:#333;
+ }
+ .about .box{
+    padding-left: 200px;
+    display: flex;
+
+    flex-direction: row;
+    margin:  20px 0;
+ }
+ .about .box .year_company{
+    max-width: 150px;
+ }
+ .about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+ }
+ .about .box .year_company h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+ }
+ .belgeler .box {
+   padding-left: 200px;
+    
+   
+ }
+ .belgeler .box .foto{
+    height: 50%;
+    width: 50%;
+ }
+ 
