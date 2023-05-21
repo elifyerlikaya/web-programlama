@@ -6,7 +6,7 @@ function yesno() {
         labelvar.innerHTML = "";
     }
     else {
-        labelvar.innerHTML = "Saklıkent";
+        labelvar.innerHTML = "Fethiye";
     }
 }
 function yesnox() {
@@ -40,7 +40,6 @@ function yesnoz() {
         labelvar.innerHTML = "";
     }
     else {
-        labelvar.innerHTML = "Dalaman havaalanına 50 Km mesafede, Türkiye'nin Akdeniz ile Ege kıyılarının birleştiği turkuaz koylarında yer almaktadır " ;
-        labelvar.href= "https://www.fethiye-turlari.com/fethiye-hakkinda/"
+        labelvar.innerHTML = "Saklıkent";
     }
 }

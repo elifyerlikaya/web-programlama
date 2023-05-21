@@ -12,27 +12,29 @@ https://codepen.io/AbubakerSaeed/pen/QWjYYmB
 /* FONT */
 /* ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 /* DEFAULTS */
 /* ========================================================================== */
 
-body {
+header {
   display: flex;
-  margin-left: 8%;
   align-items: center;
+  justify-content: center;
 
   min-height: 100vh;
   
 
   background: hsl(0 0% 98%);
   font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+  
 }
 
 h1 {
   color: hsla(32 50% 50% / .8);
 
-  position: fixed;
+  position: absolute;
   left: 10px;
   top: 50%;
   margin: 0;
@@ -63,6 +65,7 @@ h2 {
   background: hsl(0 0% 90%);
 
   box-sizing: border-box;
+
 }
 
 .ci {
@@ -160,3 +163,32 @@ input:not(:checked)+label+.ci {
 
   padding-left: 100px;
 }
+
+a {
+    z-index:100;
+    text-decoration: none;
+}
+
+.aciklama {
+    font-size: 24px;
+    margin-bottom: 15%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: hsl(0 0% 98%);
+}
+ h2 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 7%;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+ }

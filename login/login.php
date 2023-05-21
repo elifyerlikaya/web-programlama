@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Kullanıcı adı ve şifre doğrulama işlemi
     if ($loggedIn) {
         echo "Hoşgeldiniz " . $username . "! Login işlemi başarılı.";
-        header("Location: http://localhost/web%20programlama/lobi/index.html");
+        header("Location: ../lobi/index.html");
     } else {
         header("Location: login.html");
         exit();
